@@ -1,0 +1,37 @@
+@import './fonts';
+@import './colors';
+@import './button';
+
+.jumbotron h1, h2 {
+    font-family: $header-font;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+.jumbotron p {
+    font-family: $body-font;
+}
+
+.jumbotron {
+    text-align: center;
+    color: $white;
+    height: 60vh;
+    background: linear-gradient(rgba(26, 156, 186, 0.85), rgba(26, 156, 186, 0.7)), url(../images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbo-content {
+    padding: 5vh 1em 1em 1em;
+}
+
+.jumbo-btn {
+    margin-top: 1.5em;
+}
+
+@media screen and (max-width: 375px) {
+    .jumbotron {
+        min-height: 475px;
+    }
+}

@@ -1,0 +1,68 @@
+@import './colors';
+@import './fonts';
+
+.services {
+    margin: 3em 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    width: 275px;
+    text-align: center;
+    color: $primary;
+    margin: 3em;
+}
+
+.card h2, a {
+    font-family: $header-font;
+    text-transform: uppercase;
+}
+
+.card p{
+    font-family: $body-font;
+}
+
+.title-icon {
+    font-size: 3rem;
+}
+
+.service-description {
+    height: 8em;
+}
+
+@media screen and (max-width: 1485px){
+    .left{
+        margin-left: 250px;
+    }
+
+    .right{
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-width: 1145px){
+    .left{
+        margin-left: 175px;
+    }
+
+    .right{
+        margin-right: 175px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .left{
+        margin-left: 3em;
+    }
+
+    .right{
+        margin-right: 3em;
+    }
+}

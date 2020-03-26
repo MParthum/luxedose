@@ -1,0 +1,37 @@
+@import './fonts';
+@import './colors';
+@import './button';
+
+.book-now h2 {
+    font-family: $header-font;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+.book-now p {
+    font-family: $body-font;
+}
+
+.book-now {
+    text-align: center;
+    color: $white;
+    height: 35vh;
+    background: linear-gradient(rgba(26, 156, 186, 0.85), rgba(26, 156, 186, 0.65)), url(../images/calendar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book-now-content {
+    padding-top: 5vh;
+}
+
+.book-now-btn{
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 443px) {
+    .book-now {
+        height: 45vh;
+    }
+}

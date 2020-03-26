@@ -1,0 +1,39 @@
+@import './fonts';
+@import './colors';
+
+.footer {
+    text-align: center;
+    color: $primary;
+}
+
+.social-icons{
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1.25em;
+}
+
+.social-icons a{
+    color: $primary;
+    text-decoration: none;
+    padding: 0 1.5em;
+}
+
+.contact {
+    color: $primary;
+    text-decoration: none;
+}
+
+.phone {
+    display: block;
+    padding: 1.25em;
+}
+
+.copyright{
+    font-family: $body-font;
+}
+
+@media screen and (max-width: 470px) {
+    .social-icons a{
+        padding: 0 0.75em;
+    }
+}

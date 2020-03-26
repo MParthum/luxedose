@@ -1,0 +1,45 @@
+@import './fonts';
+@import './colors';
+
+.about {
+    margin: 10vh 0;
+}
+
+.about h2{
+    color: $primary;
+    font-family: $header-font;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-img img{
+    width: 250px;
+    height: 250px;
+    margin-right: 2em;
+    border-radius: 50%;
+}
+
+.about-text {
+    width: 750px;
+}
+
+.about-text p {
+    font-family: $body-font;
+    color: $primary;
+    line-height: 2em;
+    margin-left: 2em;
+
+}
+
+@media screen and (max-width: 1075px) {
+    .about-text {
+        width: 100%;
+        padding: 2em 2.5em 0 2.5em;
+    }
+}

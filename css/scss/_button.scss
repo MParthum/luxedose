@@ -1,0 +1,42 @@
+@import './colors';
+@import './fonts';
+
+.btn {
+    font-family: $header-font;
+    color: $primary-dark;
+    background-color: $white;
+    text-decoration: none;
+    padding: .5em;
+    margin: .5em;
+    border: 1.5px solid $primary-dark;
+    border-radius: 5px;
+    line-height: 3em;
+    transition: all 0.25s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: $white;
+    background-color: $primary-dark;
+    border: 1.5px solid $white;
+}
+
+.btn-opp {
+    font-family: $header-font;
+    color: $white;
+    background-color: $primary;
+    text-decoration: none;
+    padding: .5em;
+    margin: .5em;
+    border: 1.5px solid $white;
+    border-radius: 5px;
+    line-height: 3em;
+    transition: all 0.25s ease-in;
+    cursor: pointer;
+}
+
+.btn-opp:hover {
+    color: $primary;
+    background-color: $white;
+    border: 1.5px solid $primary;
+}

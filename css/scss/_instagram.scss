@@ -1,0 +1,29 @@
+@import './colors';
+@import './fonts';
+
+.instagram {
+    margin: 3em 0;
+}
+
+.instagram h1 {
+    text-align: center;
+    font-family: $header-font;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+.ig-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ig-card {
+    width: 450px;
+    margin: 3em;
+}
+
+.ig-button {
+    text-align: center;
+}
