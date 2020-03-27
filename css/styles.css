@@ -423,7 +423,7 @@ nav {
 
 @media screen and (max-width: 650px) {
   .service-detail p, .service-title-desc {
-    padding: 0 1em;
+    padding: 0 .5em;
   }
 }
 
