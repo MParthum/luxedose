@@ -342,6 +342,8 @@ nav {
 }
 
 .service-img {
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   margin-bottom: 1em;
 }
@@ -416,6 +418,12 @@ nav {
 @media screen and (max-width: 840px) {
   .service-detail p, .service-title-desc {
     padding: 0 2.5em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .service-detail p, .service-title-desc {
+    padding: 0 1em;
   }
 }
 
@@ -571,6 +579,9 @@ nav {
   .about-text {
     width: 100%;
     padding: 2em 2.5em 0 2.5em;
+  }
+  .about-img img {
+    margin-right: 0;
   }
 }
 
